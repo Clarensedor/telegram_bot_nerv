@@ -18,8 +18,9 @@ def get_weater(api_key, city):
    feels_like = str(feels_like)
 
 
-   result = "La termperatura en: "+ city + " es de : " + temperature + " y se siente como si estuvieramos a " + feels_like
+   result = "La termperatura en: "+ city + " es de : " + temperature +" grados"+ " y se siente como si estuvieramos a " + feels_like + " grados"
    return result
+
 
 
 
